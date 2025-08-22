@@ -1,1 +1,1 @@
-# tuoyan-app-privacy
+# jiupian-app-privacy

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>「拖延名单」技术支持</title>
+    <title>「一瞧纠偏」技术支持</title>
     <style>
         body { 
             font-family: "苹方-简", "微软雅黑", sans-serif; 
@@ -12,48 +12,126 @@
             max-width: 800px; 
             margin: 0 auto; 
             padding: 20px; 
+            background-color: #fff;
         }
         h1 { 
             color: #333; 
             text-align: center; 
-            margin-bottom: 30px; 
+            margin-bottom: 20px; 
+            font-size: 28px;
+        }
+        p.intro {
+            text-align: center;
+            color: #999;
+            font-size: 16px;
+            margin-bottom: 40px;
         }
         h2 { 
             color: #333; 
             margin-top: 30px; 
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
         }
         .contact-box { 
             background-color: #f9f9f9; 
-            padding: 20px; 
+            padding: 25px; 
             border-radius: 8px; 
-            margin: 20px 0; 
+            margin: 25px 0; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .contact-box h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .contact-box ul {
+            padding-left: 20px;
+        }
+        .contact-box li {
+            margin: 8px 0;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         details { 
             margin: 15px 0; 
-            padding: 10px; 
+            padding: 15px; 
             background-color: #fcfcfc; 
-            border-radius: 4px; 
+            border: 1px solid #eee;
+            border-radius: 6px;
         }
         details summary { 
             color: #333; 
             font-weight: 500; 
             cursor: pointer; 
         }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #aaa;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <h1>「拖延名单」技术支持</h1>
+    <h1>「一瞧纠偏」技术支持</h1>
+    <p class="intro">专注不脱轨，我们一路相伴</p>
     
     <h2>联系我们</h2>
-    <p>如果您在使用「拖延名单」时遇到功能问题、有优化建议，或需要了解隐私政策细节，请通过以下方式联系我们：</p>
-    
+    <p>感谢您使用「一瞧纠偏」！如果您在使用过程中遇到任何问题——例如功能异常、界面显示错误，或有关于进展机制、方块轨迹等交互设计的建议，欢迎随时与我们联系。</p>
+    <p>我们也非常乐意听取您对专注体验的反馈，共同优化这款帮助用户<span style="color:#333;">“看得见进展、防得了跑偏”</span>的小而美应用。</p>
+
     <div class="contact-box">
         <h3>联系信息</h3>
         <ul>
-            <li>电子邮箱：<a href="mailto:shiyu_2025@126.com">shiyu_2025@126.com</a></li>
-            <li>工作时间：周一至周五 9:00-18:00（法定节假日除外）</li>
-            <li>响应时效：我们会在48小时内通过邮件回复您的咨询</li>
+            <li>📧 电子邮箱：<a href="mailto:shiyu_2025@126.com">shiyu_2025@126.com</a></li>
+            <li>📅 工作时间：周一至周五 9:00 - 18:00（法定节假日除外）</li>
+            <li>⏱️ 响应时效：我们将在 <strong>48小时内</strong> 通过邮件回复您的咨询</li>
+            <li>🌐 官方隐私政策：<a href="https://yiqiao-app.com/privacy" target="_blank">https://yiqiao-app.com/privacy</a></li>
         </ul>
+    </div>
+
+    <h2>常见问题（FAQ）</h2>
+    <details>
+        <summary>应用为什么不需要登录？</summary>
+        <p>「一瞧纠偏」采用纯本地运行设计，所有数据（如任务状态、保护时间、方块轨迹）均保存在您的设备中，不上传服务器，也无需账号系统。这确保了您的专注记录完全私密、安全。</p>
+    </details>
+
+    <details>
+        <summary>点击“进展”按钮没有反应怎么办？</summary>
+        <p>请尝试以下操作：</p>
+        <ul>
+            <li>关闭应用后重新启动；</li>
+            <li>检查是否误触了屏幕锁定或辅助触控功能；</li>
+            <li>确保系统为 iOS 13 或更高版本；</li>
+            <li>如问题持续，请将操作步骤和设备型号发送至邮箱，我们将尽快排查。</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>方块频繁脱轨是正常现象吗？</summary>
+        <p>是的。方块脱轨是一种提醒机制，表示系统检测到您的专注节奏可能出现了偏移（如长时间无进展操作）。建议您：</p>
+        <ul>
+            <li>每几分钟点击一次“进展”按钮，汇报实际成果；</li>
+            <li>合理拆分任务，避免陷入细节；</li>
+            <li>将“脱轨”视为一次温和的注意力校准提示，而非失败。</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>数据会同步到其他设备吗？</summary>
+        <p>目前版本暂不支持跨设备同步。所有记录仅保存在当前设备本地。如需此功能，欢迎在邮件中告诉我们，我们将评估后续版本支持可能性。</p>
+    </details>
+
+    <h2>我们重视您的反馈</h2>
+    <p>无论是 bug 报告、体验建议，还是您在使用「一瞧纠偏」时的真实故事，我们都愿意倾听。您的每一次反馈，都在帮助我们打造更贴心、更有效的专注伴侣。</p>
+    <p>期待您的来信，一起让专注更有方向。</p>
+
+    <div class="footer">
+        &copy; 2025 「一瞧纠偏」团队. 保留所有权利。
     </div>
 </body>
 </html>
